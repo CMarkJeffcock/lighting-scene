@@ -20,9 +20,9 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.9339623, g: 0.6904935, b: 0.33922213, a: 1}
-  m_AmbientEquatorColor: {r: 0.4245283, g: 0.07005307, b: 0.022027414, a: 1}
-  m_AmbientGroundColor: {r: 0.9716981, g: 0.07883733, b: 0.041251317, a: 1}
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
   m_AmbientMode: 1
   m_SubtractiveShadowColor: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 1}
@@ -35,10 +35,10 @@ RenderSettings:
   m_DefaultReflectionMode: 0
   m_DefaultReflectionResolution: 128
   m_ReflectionBounces: 1
-  m_ReflectionIntensity: 0.2
+  m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.036271162, g: 0.045394827, b: 0.06147502, a: 0.2}
+  m_IndirectSpecularColor: {r: 0.1813558, g: 0.22697413, b: 0.3073751, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2874,10 +2874,6 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
-    - target: {fileID: 1259169856994380507, guid: e8d0379dc45ff5541961afe8c2548c0e, type: 3}
-      propertyPath: m_Materials.Array.data[1]
-      value: 
-      objectReference: {fileID: 2100000, guid: a362a7ad51b2e9a46a0303cf618940d7, type: 2}
     - target: {fileID: 1930952803101860821, guid: e8d0379dc45ff5541961afe8c2548c0e, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
